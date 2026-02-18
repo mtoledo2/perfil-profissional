@@ -17,7 +17,7 @@ function Principal (){
 
     return(
         <section>
-            <div className="flex flex-col items-center justify-center gap-4 mt-40 space-y-4">
+            <div className="flex flex-col items-center justify-center gap-4 mt-15 space-y-4">
 
                 <div>
                     <img className="w-50 rounded-full object-cover" src="../../img/Perfil.png" alt="" /> 
@@ -34,7 +34,7 @@ function Principal (){
                 </div>
 
                 <div className="flex flex-col gap-4 text-center mt-4">
-                    <a href="https://api.whatsapp.com/send?phone=5583999999999" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-800 px-20 py-3 rounded-md cursor-pointer hover:scale-105">
+                    <a href="https://api.whatsapp.com/send?phone=5516991355228" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-800 px-20 py-3 rounded-md cursor-pointer hover:scale-105">
                         <FaWhatsapp size={20} />Fale comigo no WhatsApp
                     </a>
                     
