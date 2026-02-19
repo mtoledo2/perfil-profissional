@@ -16,8 +16,8 @@ function Principal (){
     };
 
     return(
-        <section>
-            <div className="flex flex-col items-center justify-center gap-4 mt-15 space-y-4">
+        <section className="px-4">
+            <div className="flex flex-col items-center justify-center gap-4 mt-15 space-y-4 max-w-4xl mx-auto">
 
                 <div>
                     <img className="w-50 rounded-full object-cover" src="../../img/Perfil.png" alt="" /> 
@@ -30,18 +30,18 @@ function Principal (){
                 </div>
 
                 <div>
-                    <p className="max-w-125 text-justify text-gray-400">Atuo com desenvolvimento web utilizando React e Node.js, além de experiência prática em suporte técnico e infraestrutura. Busco oportunidade para contribuir com soluções tecnológicas e evoluir profissionalmente.</p>
+                    <p className="max-w-2xl text-justify text-gray-400">Atuo com desenvolvimento web utilizando React e Node.js, além de experiência prática em suporte técnico e infraestrutura. Busco oportunidade para contribuir com soluções tecnológicas e evoluir profissionalmente.</p>
                 </div>
 
-                <div className="flex flex-col gap-4 text-center mt-4">
-                    <a href="https://api.whatsapp.com/send?phone=5516991355228" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-800 px-20 py-3 rounded-md cursor-pointer hover:scale-105">
+                <div className="flex flex-col gap-4 text-center mt-4 w-full sm:w-auto">
+                    <a href="https://api.whatsapp.com/send?phone=5516991355228" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-800 px-6 sm:px-20 py-3 rounded-md cursor-pointer hover:scale-105">
                         <FaWhatsapp size={20} />Fale comigo no WhatsApp
                     </a>
                     
                     <div className="relative">
                         <button 
                             onClick={copiarEmail}
-                            className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-800 px-20 py-3 rounded-md cursor-pointer hover:scale-105 w-full transition-all"
+                            className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-800 px-6 sm:px-20 py-3 rounded-md cursor-pointer hover:scale-105 w-full transition-all"
                         >
                             <MdEmail size={20} />
                             Envie-me um e-mail
@@ -53,13 +53,13 @@ function Principal (){
                         )}
                     </div>
                     
-                    <a href="https://github.com/mtoledo2?tab=repositories" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-gray-800 hover:bg-gray-900 px-20 py-3 rounded-md cursor-pointer hover:scale-105">
+                    <a href="https://github.com/mtoledo2?tab=repositories" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-gray-800 hover:bg-gray-900 px-6 sm:px-20 py-3 rounded-md cursor-pointer hover:scale-105">
                         <FaGithub size={20} /> Meu GitHub
                     </a>
-                    <a href ="https://www.linkedin.com/in/murilo-toledo-2927458b/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-700 px-20 py-3 rounded-md cursor-pointer hover:scale-105">
+                    <a href ="https://www.linkedin.com/in/murilo-toledo-2927458b/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-700 px-6 sm:px-20 py-3 rounded-md cursor-pointer hover:scale-105">
                         <FaLinkedin size={20} /> Meu LinkedIn
                     </a>
-                    <a href="../../docs/CurriculoMuriloToledo.pdf" download className="flex items-center justify-center gap-2 border-2 bg-black-600 hover:bg-black-800 px-20 py-3 rounded-md cursor-pointer hover:scale-105">
+                    <a href="../../docs/CurriculoMuriloToledo.pdf" download className="flex items-center justify-center gap-2 border-2 bg-black-600 hover:bg-black-800 px-6 sm:px-20 py-3 rounded-md cursor-pointer hover:scale-105">
                         <FaDownload size={20} /> Baixar currículo em PDF
                     </a>
                 </div>
